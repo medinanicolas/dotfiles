@@ -1,0 +1,59 @@
+[global_config]
+  inactive_color_offset = 0.61
+  ask_before_closing = never
+  case_sensitive = False
+[keybindings]
+  new_tab = ""
+  cycle_prev = ""
+  go_next = ""
+  go_prev = ""
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  rotate_cw = ""
+  rotate_ccw = ""
+  split_auto = <Primary><Shift>space
+  split_horiz = <Primary><Shift>j
+  split_vert = <Primary><Shift>l
+  toggle_scrollbar = ""
+  close_window = ""
+  move_tab_right = ""
+  move_tab_left = ""
+  scaled_zoom = ""
+  next_tab = ""
+  prev_tab = ""
+  reset = ""
+  reset_clear = ""
+  hide_window = ""
+  ungroup_all = ""
+  ungroup_win = ""
+  ungroup_tab = ""
+  new_window = ""
+  new_terminator = ""
+  insert_number = ""
+  insert_padded = ""
+  edit_window_title = ""
+  edit_tab_title = ""
+  edit_terminal_title = ""
+  layout_launcher = ""
+[profiles]
+  [[default]]
+    background_darkness = 0.9
+    background_image = $HOME/.local/share/images/eva.jpg
+    background_image_mode = scale_and_crop
+    background_image_align_horiz = right
+    font = MesloLGS NF 10
+    scrollback_infinite = True
+    palette = "#262626:#e356a7:#42e66c:#e4f34a:#9b6bdf:#e64747:#75d7ec:#efa554:#7a7a7a:#ff79c6:#50fa7b:#f1fa8c:#bd93f9:#ff5555:#8be9fd:#ffb86c"
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
