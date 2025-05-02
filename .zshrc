@@ -142,3 +142,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
