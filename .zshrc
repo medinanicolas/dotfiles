@@ -114,6 +114,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias xclip="xclip -sel clip"
 alias vim=nvim
 alias open=xdg-open
 alias ggit="cat ~/.git.token | tr -d '\n' | xclip -selection clipboard"
